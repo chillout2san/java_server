@@ -45,10 +45,10 @@ public class Todo {
   /**
    * 既に存在しているTodoのパースする際のコンストラクタ
    *
-   * @param id  Todoの一意なid
-   * @param title Todoの名前
+   * @param id      Todoの一意なid
+   * @param title   Todoの名前
    * @param content Todoの内容
-   * @param status Todoの状況
+   * @param status  Todoの状況
    */
   public Todo(String id, String title, String content, Status status) {
     // 有効なインスタンスをパースするため、バリデーションはかけない

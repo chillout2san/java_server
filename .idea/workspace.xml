@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09c45c66-dc19-4e0d-a154-5e53370d23f7" name="変更" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/todo/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/todo/Todo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,6 @@
   <component name="ProjectId" id="2IDSFyBpGY9XLw1nGe7oXWHvfNZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -41,7 +41,30 @@
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.TodoTest.createTodoTestNormal">
+    <configuration name="TodoTest.createTodoTestNormal" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.domain.todo.TodoTest.createTodoTestNormal&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="java_server [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -65,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TodoTest.createTodoTestNormal" />
         <item itemvalue="Gradle.java_server [dependencies]" />
       </list>
     </recent_temporary>
