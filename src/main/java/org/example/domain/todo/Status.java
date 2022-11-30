@@ -7,13 +7,13 @@ public enum Status {
   DONE("完了"),
   ON_PROGRESS("作業中");
 
-  private String status;
+  private String value;
 
-  Status(String status) {
-    this.status = status;
+  Status(String value) {
+    this.value = value;
   }
 
-  public String getStatus() {
-    return this.status;
+  public String getValue() {
+    return this.value;
   }
 }

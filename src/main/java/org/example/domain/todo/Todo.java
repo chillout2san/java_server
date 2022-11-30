@@ -1,6 +1,7 @@
 package org.example.domain.todo;
 
 import org.example.domain.DomainConstructionException;
+import org.example.util.Id;
 
 /**
  * Todoのドメインモデル
@@ -25,25 +26,27 @@ public class Todo {
   private Status status;
 
   /**
-   * 新しいTodoを作成する際のコンストラクタ
+   * 新しいTodoを作成するコンストラクタ
    *
    * @param title   Todoの名前
    * @param content Todoの内容
    * @throws DomainConstructionException
    */
-  public Todo(String title, String content) throws DomainConstructionException {
+  public Todo(String id, String title, String content) throws DomainConstructionException {
+    if (!Id.validate(id)) {
+      throw new DomainConstructionException("有効なIdではありません");
+    }
     if (title.equals("")) {
       throw new DomainConstructionException("タイトルが空文字です");
     }
-    // ULID等を生成して代入するよう修正する
-    this.id = "dummy_id";
+    this.id = id;
     this.title = title;
     this.content = content;
     this.status = Status.ON_PROGRESS;
   }
 
   /**
-   * 既に存在しているTodoのパースする際のコンストラクタ
+   * 既に存在しているTodoのパースするコンストラクタ
    *
    * @param id      Todoの一意なid
    * @param title   Todoの名前
@@ -79,7 +82,7 @@ public class Todo {
   }
 
   public String getStatus() {
-    return this.status.getStatus();
+    return this.status.getValue();
   }
 
   public void setStatus(Status status) {
