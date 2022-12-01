@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09c45c66-dc19-4e0d-a154-5e53370d23f7" name="変更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="09c45c66-dc19-4e0d-a154-5e53370d23f7" name="変更" comment="feat: Todoモデル修正とUT作成">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/todo/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/todo/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/todo/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/todo/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/domain/todo/TodoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/domain/todo/TodoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,12 +37,15 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "project.structure.last.edited": "ライブラリ",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
-  <component name="RunManager" selected="Gradle.TodoTest.TodoNewConstructorTest">
+}]]></component>
+  <component name="RunManager" selected="アプリケーション.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="java_server.main" />
@@ -151,10 +151,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TodoTest.TodoNewConstructorTest" />
         <item itemvalue="Gradle.java_server [dependencies]" />
-        <item itemvalue="アプリケーション.Main" />
         <item itemvalue="Gradle.TodoTest" />
+        <item itemvalue="Gradle.TodoTest.TodoNewConstructorTest" />
+        <item itemvalue="アプリケーション.Main" />
         <item itemvalue="Gradle.TodoTest.createTodoTestError" />
       </list>
     </recent_temporary>
@@ -168,6 +168,21 @@
       <option name="presentableId" value="Default" />
       <updated>1669714560685</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: ULIDのパッケージをインストール">
+      <created>1669802575092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669802575092</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: ドメインモデルのインスタンス化失敗の例外を作成">
+      <created>1669802592880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669802592880</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,5 +195,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: ULIDのパッケージをインストール" />
+    <MESSAGE value="feat: ドメインモデルのインスタンス化失敗の例外を作成" />
+    <MESSAGE value="feat: Todoモデル修正とUT作成" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Todoモデル修正とUT作成" />
   </component>
 </project>
