@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation 'com.sparkjava:spark-core:2.9.4'
     implementation 'dev.shamil:ulid4j:1.0'
+    implementation 'org.mybatis:mybatis:3.5.11'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
 }
