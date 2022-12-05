@@ -53,6 +53,8 @@ public class TodoTest {
         assertEquals(Status.ON_PROGRESS.getValue(), todo.getStatus());
       } catch (DomainConstructionException e) {
         assertEquals(testCase.expectedException, e.getMessage());
+      } catch(Exception e) {
+        fail();
       }
     }));
   }
